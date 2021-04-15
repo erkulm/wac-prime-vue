@@ -150,6 +150,11 @@ const routes = [
         component: () => import('./pages/Users.vue'),
     },
     {
+        path: '/permissions',
+        name: 'permissions',
+        component: () => import('./pages/Permissions.vue'),
+    },
+    {
         path: '/calendar',
         name: 'calendar',
         component: () => import('./pages/CalendarDemo.vue'),

@@ -79,6 +79,7 @@ export default {
 					label: 'Pages', icon: 'pi pi-fw pi-clone',
 					items: [
                         {label: 'Users', icon: 'pi pi-fw pi-user-edit', to: '/users'},
+                        {label: 'Permissions', icon: 'pi pi-fw pi-user-edit', to: '/permissions'},
 						{label: 'Crud', icon: 'pi pi-fw pi-user-edit', to: '/crud'},
 						{label: 'Calendar', icon: 'pi pi-fw pi-calendar-plus', to: '/calendar'},
 						{label: 'Timeline', icon: 'pi pi-fw pi-calendar', to: '/timeline'},
